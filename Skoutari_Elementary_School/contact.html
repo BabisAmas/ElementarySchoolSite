@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Δημοτικό Σχολείο Σκουτάρεως</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactForm.css"
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+	Elysa4T by 4Templates | http://www.4templates.com/free/ | @4templates
+	Licensed under the Creative Commons Attribution 3.0 License
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Δημοτικό Σχολείο Σκουτάρεως</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Arvo:400,700|Cookie" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
+    <script type="text/javascript" src="init.js"></script>
+</head>
+<body>
+    <div id="header-wrapper">
+        <div id="header" class="container">
+            <div id="logo">
+                <h1><a href="index.html">Αρχική</a></h1>
+            </div>
+            <div id="menu-wrapper">
+                <div>
+                    <ul id="menu">
+                        <li><span>Το σχολείο μας</span>
+                            <ul>
+                                <li class="first"><a href="schoolStory.html">Ιστορία</a></li>
+                                <li><a href="parentsAssociation.html">Σύλλογος Γονέων</a></li>
+                                <li><a href="internalRule.html">Εσωτερικός Κανονισμός</a></li>
+                                <li><span>Διδακτικό Προσωπικό</span>
+                                    <ul>
+                                        <li class="first"><a href="#">Σχολικό έτος 2013-2014</a></li>
+                                        <li><a href="#">Σχολικό έτος 2014-2015</a></li>
+                                        <li class="last"><a href="#">Σχολικό έτος 2015-2016</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="last"><a href="actions.html">Δράσεις</a></li>
+                        <li><a href="schoolProgram.html"><span>Ωρολόγιο πρόγραμμα</span></a></li></li>
+                        <li><span>Ευρωπαϊκά προγράμματα</span>
+                            <ul>
+                                <li class="first"><a href="etwinning.html">e-twinning</a></li>
+                                <li class="last"><a href="erasmus.html">Erasmus +</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" title=""><span>Επικοινωνία</span></a></li>
+                        <li><a href="#" title=""><span>Σύνδεση μαθητών</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================[ Page ]=================================-->
+    <div id="page-wrapper">
+        <div id="contact-form" class="clearfix">
+            <h1>Επικοινωνήστε μαζί μας!</h1>
+            <br>
+            <h2>Εάν θέλετε να επικοινωνήσετε μαζί μας, συμπληρώστε τα παρακάτω πεδία με τα στοιχεία σας, γράψτε το μήνυμά σας και πατήστε αποστολή</h2>
+            <ul id="errors" class="">
+                <li id="info">Υπήρξαν κάποια προβλήματα με την υποβολή της φόρμας σας:</li>
+            </ul>
+            <p id="success">Σας ευχαριστούμε για το μήνυμά σας! Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατόν!</p>
+            <form method="post" action="process.php">
+                <label for="name">Ονοματεπώνυμο: <span class="required">*</span></label>
+                <input type="text" id="name" name="name" value="" placeholder="Βασίλης Παπαδόπουλος" required="required" autofocus="autofocus" />
+
+                <label for="email">Ηλεκτρονική Διεύθυνση (e-mail): <span class="required">*</span></label>
+                <input type="email" id="email" name="email" value="" placeholder="VasilisPapadopoulos@example.com" required="required" />
+
+
+                <label for="message">Μήνυμα: <span class="required">*</span></label>
+                <textarea id="message" name="message" placeholder="Το μήνυμά σας θα πρέπει να είναι μεγαλύτερο από 20 χαρακτήρες" required="required" data-minlength="20"></textarea>
+
+                <span id="loading"></span>
+                <input type="submit" value="Αποστολή" id="submit-button" />
+                <p id="req-field-desc"><span class="required">*</span>Υποδηλώνει απαιτούμενο πεδίο</p>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
